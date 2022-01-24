@@ -12,6 +12,11 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <style>
+      figure {
+        margin-right: 40px;
+      }
+    </style>
 
     <title>Pixeled Images vs. No Pixeled Images</title>
   </head>
@@ -21,25 +26,22 @@
         <!-- Imatge Correcta-->
         <figure class="figure">
           <img
-            src="assets/semafor-500.jpg"
-            class="figure-img img-fluid rounded"
+            src="assets/semafor-500.jpg" class="figure-img img-fluid rounded"
             alt="A generic square placeholder image with rounded corners in a figure."
           />
           <figcaption class="figure-caption">
-            CORRECTE: Imatge de 500 x 1000 pixels que ocupa 500x1000 pixels
-          </figcaption>
+            CORRECTE: Imatge de 500x1000 px ocupa 500x1000</figcaption>
         </figure>
 
 
         <!-- Imatge Incorrecta -->
         <figure class="figure">
           <img
-            src="assets/semafor-250.jpg"
-            class="figure-img img-fluid rounded"
+            src="assets/semafor-250.jpg" class="figure-img img-fluid rounded"
             alt="A generic square placeholder image with rounded corners in a figure."
             style="width: 500px"
           />
-          <figcaption class="figure-caption">INCORRECTE: Imatge de 250 x 500 pixels que ocupa 500x1000 pixels</figcaption>
+          <figcaption class="figure-caption">INCORRECTE: Imatge de 250x500 px ocupa 500x1000</figcaption>
         </figure>
       </div>
     </div>
